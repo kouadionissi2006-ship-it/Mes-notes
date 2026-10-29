@@ -1,0 +1,7 @@
+<h2>Mes notes ({{ notes.length }})</h2>
+<div class="note" *ngFor="let note of notes">{{ note }}</div>
+<div class="ajout">
+  <input #champ placeholder="Nouvelle note..." />
+  <button (click)="ajouter(champ.value); champ.value= ''">Ajouter</button>
+</div>
+

@@ -1,0 +1,41 @@
+:host {
+  display: block;
+  max-width: 380px;
+  margin: 20px;
+  padding: 20px;
+  background: #f3f6fb;
+  border-radius: 12px;
+}
+
+h2 {
+  color: #111a33;
+}
+
+.note {
+  background: #fff;
+  padding: 14px 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.ajout {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  background: #d32f3f;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 999px;
+  cursor: pointer;
+}
